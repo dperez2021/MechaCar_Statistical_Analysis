@@ -94,5 +94,34 @@ Lot 2 & Lot 3
 
 Here both p-values are above the significance level, so we can conclude that the PSI for Lot2 and Lot3 are statistically similar to the population mean.
 
+## Deliverable 4:
+## Study Design: MechaCar vs Competition
+
+In order to compare the performance of the MechaCar prototype against the vehicles from the competition, we will perform a statistcal analysis based on the following metrics:
+
+- the "0 to 60 mph" time,
+- the braking distance,
+- the fuel economy (mpg),
+- the Power,
+- the safety rating.
+- the current price (selling):
+- the drive package:
+- the resalve value:
+- the average annual cost of wonership (Maintenance)
+
+### Hypothesis: Null and Alternative:
+
+After determining which factors are key for the MechaCar's genre:
+
+- Null Hypothesis: MechaCar is priced correctly based on its performance of key factors for its genre.
+- Alternative Hypothesis: MechaCar is NOT priced correctly based on performance of key factors for its genre.
+
+### Statistical Tests:
+
+A multiple linear regression would be used to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable); which combination has the greatest impact on price 
+
+
+We would use a one-way ANOVA test. This test is used to compare the means of a continuous numerical variable across a number of groups.
+So in this analysis we would compare the means for each metric across the different manufacturers. To perform the test, we would need data of MechaCar vehicles and its competition, all gathered in a single dataframe where each metric is a column. Lastly, some of this data can be scraped from vehicle data APIs such as https://www.zyte.com/data-types/vehicle-data/ or https://www.carqueryapi.com/
 
 
